@@ -6,6 +6,7 @@ class MainWindow : Gtk.Window
         var sv = new Gtk.SourceView();
         sv.set_show_line_numbers(true);
         sv.set_editable(false);
+        sv.wrap_mode = Gtk.WrapMode.WORD_CHAR;
 
         tb = sv.get_buffer() as Gtk.SourceBuffer;
         tb.set_highlight_syntax(true);
