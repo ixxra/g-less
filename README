@@ -1,7 +1,7 @@
 #G-Less
 ##Simple graphical less replacement, *nothing more, nothing less*
 
-This is programm shows the content of a single text file, in the spirit of less, but with syntax highlighting, line numbering and graphical user interaction.
+This programm shows the content of a single text file, in the spirit of less, but with syntax highlighting, line numbering and graphical user interaction.
 
 ##Dependencies
 
